@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #3a3d40;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+#navbar {
+  display: flex;
+  background-color: #be3144;
+  justify-content: flex-end;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  height: 70px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: right;
+  margin-right: 40px;
+  font-size: 25px;
+}
+
+.projects {
+  background-color: aqua;
+  width: 100%;
+}
+
+#welcome-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #3a3d40;
+}
+
+#welcome-section h1 {
+  color: aliceblue;
+  font-size: 55px;
+  padding-bottom: 15px;
+}
+
+#welcome-section p {
+  font-size: 30px;
+  color: #be3144;
+}
+
+/* PROYECTOS */
+
+.project-tile {
+  color: white;
+  font-size: 27px;
+  padding-top: 75px;
+}
+
+.project-tile h2 {
+  border-bottom: 0.2rem solid white;
+  text-align: center;
+}
+
+#projects {
+  background-color: #45567d;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.separacion {
+  padding-bottom: 200px;
+}
+
+.target {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.target a {
+  width: calc(33% - 20px);
+  margin: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target a img {
+  width: 100%;
+  max-width: 400px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.target p {
+  background-color: #303841;
+  max-width: 340px;
+  padding: 30px;
+  width: 100%;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .target a {
+    width: 90%; /* Cambia el ancho según lo necesario */
+  }
+}
+
+.codigo {
+  color: #303841;
+}
+
+/* Cambiar el color de .codigo cuando se pasa el mouse sobre la imagen */
+a:hover img + p.titulo .codigo {
+  color: #ff7f50;
+}
+
+/* BOTON SHOW ALL */
+
+#btn {
+  color: aliceblue;
+  background-color: #45567d;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+#boton {
+  display: flex;
+  background-color: #303841;
+  width: 130px;
+  text-align: center;
+  height: 45px;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.sboton {
+  background-color: #45567d;
+}
+
+.punto {
+  color: #303841;
+}
+
+#boton:hover .mayorque {
+  color: #ff7f50;
+  transition-delay: 0.1s;
+}
+
+.separacion2 {
+  height: 50px;
+  margin-bottom: 50px;
+  background-color: #45567d;
+}
+
+.contacto {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  background-color: #3a3d40;
+}
+
+.scontacto {
+  background-color: #3a3d40;
+}
+
+.contacto h2 {
+  font-size: 55px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.contacto p {
+  font-size: 20px;
+  color: white;
+}
+
+.redes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.redes a {
+  margin-right: 40px;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-bottom: 80px;
+  margin-left: 30px;
+}
+
+.separacion3 {
+  border-bottom: 3px solid #be3144;
+  margin-top: 60px;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fp1 {
+  color: white;
+  margin: 50px 0;
+  margin-left: 20px;
+}
+
+.fp2 {
+  color: white;
+  margin-left: 150px;
+  margin: 0 50px;
+}
