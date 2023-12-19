@@ -117,7 +117,8 @@ nav ul li {
 
 @media (max-width: 768px) {
   .target a {
-    width: 90%; /* Cambia el ancho según lo necesario */
+    width: 90%;
+    /* Cambia el ancho según lo necesario */
   }
 }
 
@@ -126,7 +127,7 @@ nav ul li {
 }
 
 /* Cambiar el color de .codigo cuando se pasa el mouse sobre la imagen */
-a:hover img + p.titulo .codigo {
+a:hover img+p.titulo .codigo {
   color: #ff7f50;
 }
 
@@ -197,6 +198,7 @@ a:hover img + p.titulo .codigo {
 
 .redes {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
